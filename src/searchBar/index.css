@@ -1,0 +1,68 @@
+.app-container {
+  min-height: 100vh;
+  padding: 30px;
+  background-color: #0f6180;
+  font-family: 'Roboto';
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.search-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.search {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.button {
+  font-size: 17px;
+  margin-left: 5px;
+  color: #ffffff;
+  height: 35px;
+  background-color: #78866b;
+  border-radius: 8px;
+  outline: 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  color: #ffffff;
+}
