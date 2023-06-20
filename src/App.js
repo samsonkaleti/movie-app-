@@ -1,13 +1,7 @@
-import {Router, Route} from 'react-router-dom'
-import SearchBar from './searchBar'
-import MovieDetails from './movieDetails'
 import './App.css'
 
-const App = () => (
-  <Router>
-    <Route exact path="/" component={SearchBar} />
-    <Route exact path="/movie/:imdbID" component={MovieDetails} />
-  </Router>
-)
+import GithubPopularRepos from './components/GithubPopularRepos'
+
+const App = () => <GithubPopularRepos />
 
 export default App
